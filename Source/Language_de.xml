@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:langdata xmlns:l="http://www.schema.de/XSL/ST4DocuManagerlang">
+<l:langblock xml:lang="de">
+
+<!-- ==================================================================== -->
+<!-- Texts for Safety Messages; embedded and regular -->
+<l:gentext key="danger" value="GEFAHR" />
+<l:gentext key="embedded.danger" value="GEFAHR!" />
+<l:gentext key="warning" value="WARNUNG" />
+<l:gentext key="embedded.warning" value="WARNUNG!" />
+<l:gentext key="caution" value="VORSICHT" />
+<l:gentext key="embedded.caution" value="VORSICHT!" />
+<l:gentext key="notice" value="HINWEIS" />
+<l:gentext key="embedded.notice" value="HINWEIS!" />
+<l:gentext key="environmental" value="Umwelt" />
+<l:gentext key="information" value="Information" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Variablen für die festen Texte auf dem Deckblatt -->
+<l:gentext key="vehicletype" value="Fahrzeugtyp" />
+<l:gentext key="machinetype" value="Maschinentyp" />
+<l:gentext key="type/variant" value="Typ / Variante" />
+<l:gentext key="materialnumber" value="Materialnummer" />
+<l:gentext key="date" value="Datum" />
+<l:gentext key="ProdLanguage" value="[deutsch]"/>
+<l:gentext key="ProdLanguage2" value="de" />
+<l:gentext key="see" value="siehe " />
+<l:gentext key="onPage" value=" auf Seite " />
+<l:gentext key="instshtnumber" value="Anweisungsblattnummer" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Variablen für die Variable meta.Pub.PublicationType -->
+<l:gentext key="Betriebsanleitung" value="Betriebsanleitung" />
+<l:gentext key="OM" value="Betriebsanleitung" />
+<l:gentext key="SR" value="Service and Repair Manual" />
+<l:gentext key="STG" value="System and Troubleshooting Guide" />
+<l:gentext key="II" value="Installation Instruction" />
+<l:gentext key="SM" value="Software Manual" />
+<l:gentext key="TD" value="Training Document" />
+<l:gentext key="PG" value="Product Guide" />
+<l:gentext key="Redaktionsleitfaden" value="Redaktionsleitfaden"/>
+<l:gentext key="SB" value="Service-Heft"/>
+<l:gentext key="BA_OEM" value="Bedienungsanleitung" />
+<l:gentext key="BA_BOMAG" value="Betriebs- und Wartungsanleitung" />
+<l:gentext key="PL" value="Preisliste" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Werte für Datenknoten Anbauwerkzeuge -->
+<l:gentext key="cust.Width" value="Breite in mm"/>
+<l:gentext key="emptyCell" value="Materialnummer"/>
+<l:gentext key="cust.MatNr" value="Materialnummer"/>
+<l:gentext key="cust.Weight" value="Gewicht in kg"/>
+<l:gentext key="cust.Volume" value="Inhalt in m³"/>
+<l:gentext key="cust.AttLength" value="Länge in mm"/>
+<l:gentext key="cust.AttPayload" value="Traglast in kg"/>
+<l:gentext key="cust.AttachType" value="Anbaugerät"/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Werte für Datenknoten Bereifung -->
+<l:gentext key="cust.Bereifung" value="Bereifung"/>
+<l:gentext key="cust.Einpresstiefe" value="Einpresstiefe in mm"/>
+<l:gentext key="cust.Luftdruck" value="Luftdruck in bar"/>
+<l:gentext key="cust.Profil" value="Profil"/>
+<l:gentext key="cust.Breite" value="Breite in mm"/>
+<l:gentext key="cust.Hoehe" value="Höhe in mm"/>
+<l:gentext key="cust.Merkmal" value="SAP Merkmal"/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PGR Abmessungen Auenrüttler -->
+<l:gentext key="emptyCell" value="Benennung"/>
+<l:gentext key="meta.PGR.CenterDistance" value="Achsabstand Anschraubfläche"/>
+<l:gentext key="meta.PGR.DiameterDrillPat" value="Bohrbild Bohrungsdurchmesser"/>
+<l:gentext key="meta.PGR.Height" value="Höhe"/>
+<l:gentext key="meta.PGR.HeightDrillPat" value="Bohrbild Fußhöhe"/>
+<l:gentext key="meta.PGR.Length" value="Länge"/>
+<l:gentext key="meta.PGR.LengthDrillPat" value="Bohrbild Länge"/>
+<l:gentext key="meta.PGR.MaterialNumber" value="Materialnummer"/>
+<l:gentext key="meta.PGR.Type" value="Typ"/>
+<l:gentext key="meta.PGR.Width" value="Breite"/>
+<l:gentext key="meta.PGR.WidthDrillPat" value="Bohrbild Breite"/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PGK Motordaten -->
+<l:gentext key="meta.PGK.Manufacturer" value="Hersteller"/>
+<l:gentext key="meta.PGK.EnTypes" value="Bauart"/>
+<l:gentext key="meta.PGK.Cylinders" value="Anzahl der Zylinder"/>
+<l:gentext key="meta.PGK.Fuel" value="Betriebsstoff"/>
+<l:gentext key="meta.PGK.Injection" value="Einspritzsystem"/>
+<l:gentext key="meta.PGK.Cooling" value="Kühlung"/>
+<l:gentext key="meta.PGK.Charger" value="Aufladung"/>
+<l:gentext key="meta.PGK.Displacement" value="Hubraum in cm³"/>
+<l:gentext key="meta.PGK.PowerkW" value="Leistung bei Nenndrehzahl in kW"/>
+<l:gentext key="meta.PGK.PowerPS" value="Leistung bei Nenndrehzahl in PS"/>
+<l:gentext key="meta.PGK.RatedSpeed" value="Nenndrehzahl bei U/min"/>
+<l:gentext key="meta.PGK.Torque" value="Maximales Drehmoment (Nm @ U/min)"/>
+<l:gentext key="meta.PGK.IdleSpeed" value="Leerlaufdrehzahl in U/min"/>
+<l:gentext key="meta.PGK.Consumption" value="Spezifischer Kraftstoffverbrauch in g/kWh"/>
+<l:gentext key="meta.PGK.Inclination" value="Maximale zulässige Neigung (in alle Richtungen) in Grad"/>
+<l:gentext key="meta.PGK.ExhaustTreat" value="System zur Abgasnachbehandlung"/>
+<l:gentext key="meta.PGK.Emission" value="Abgasstufe"/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PGK Abmessungen Standard -->
+<l:gentext key="emptyCellAbmessungen" value="Bezeichnung (Werte in mm)"/>
+<l:gentext key="meta.PGK.DimensionsValue" value="mm"/>
+<l:gentext key="meta.PGK.GesamtlängeSchaufel-A" value="Gesamtlänge (mit Standardschaufel)"/>
+<l:gentext key="meta.PGK.GesamtlängeOhne-B" value="Gesamtlänge (ohne Standardschaufel)"/>
+<l:gentext key="meta.PGK.Drehpunkt-C" value="Schaufeldrehpunkt (bis Achsmitte)"/>
+<l:gentext key="meta.PGK.Radstand-D" value="Radstand"/>
+<l:gentext key="meta.PGK.Überhang-E" value="Hecküberhang"/>
+<l:gentext key="meta.PGK.HöheFSD-F" value="Höhe mit Fahrerschutzdach fest"/>
+<l:gentext key="meta.PGK.HöheFSDniedrig-F" value="Höhe mit Fahrerschutzdach niedrig"/>
+<l:gentext key="meta.PGK.HöheFSDhoch-F" value="Höhe mit Fahrerschutzdach hoch"/>
+<l:gentext key="meta.PGK.HöheEPS-F" value="Höhe mit Fahrerschutzdach klappbar (eps)"/>
+<l:gentext key="meta.PGK.HöheEPSgeklappt-F" value="Höhe mit Fahrerschutzdach klappbar (eps), umgeklappt"/>
+<l:gentext key="meta.PGK.HöheEPSplus-F" value="Höhe mit Fahrerschutzdach absenkbar (epsPlus)"/>
+<l:gentext key="meta.PGK.HöheEPSplusGesenkt-F" value="Höhe mit Fahrerschutzdach absenkbar (epsPlus), abgesenkt"/>
+<l:gentext key="meta.PGK.HöheKab-F" value="Höhe mit Kabine"/>
+<l:gentext key="meta.PGK.HöheKabKlima-F" value="Höhe mit Kabine mit Klimaanlage"/>
+<l:gentext key="meta.PGK.HöheKabNiedrig-F" value="Höhe mit Kabine niedrig"/>
+<l:gentext key="meta.PGK.HöheKabHoch-F" value="Höhe mit Kabine hoch"/>
+<l:gentext key="meta.PGK.Sitzhöhe-H" value="Sitzhöhe"/>
+<l:gentext key="meta.PGK.GArbeitshöheSchaufel-J" value="Gesamtarbeitshöhe (mit Standardschaufel)"/>
+<l:gentext key="meta.PGK.HöheDrehpunkt-K" value="Max. Höhe Schaufeldrehpunkt"/>
+<l:gentext key="meta.PGK.ÜberladehöheSchaufel-L" value="Überladehöhe (mit Standardschaufel"/>
+<l:gentext key="meta.PGK.AuskipphöheSchaufel-M" value="Auskipphöhe"/>
+<l:gentext key="meta.PGK.Reichweite-N" value="Reichweite bei M"/>
+<l:gentext key="meta.PGK.Schürftiefe-O" value="Schürftiefe"/>
+<l:gentext key="meta.PGK.Breite-P" value="Gesamtbreite"/>
+<l:gentext key="meta.PGK.Spurbreite-Q" value="Spurbreite"/>
+<l:gentext key="meta.PGK.BreiteFSD-R" value="Breite über Fahrerschutzdach"/>
+<l:gentext key="meta.PGK.BreiteKab-R" value="Breite über Kabine"/>
+<l:gentext key="meta.PGK.Bodenfreiheit-S" value="Bodenfreiheit"/>
+<l:gentext key="meta.PGK.RadiusAußen-T" value="Max. Radius außen (abhängig von der Schaufelbreite)"/>
+<l:gentext key="meta.PGK.RadiusRand-U" value="Radius am Außenrand"/>
+<l:gentext key="meta.PGK.RadiusInnen-V" value="Innenradius"/>
+<l:gentext key="meta.PGK.Knickwinkel-W" value="Knickwinkel/Lenkeinschlag"/>
+<l:gentext key="meta.PGK.Pendelwinkel" value="Pendelwinkel"/>
+<l:gentext key="meta.PGK.RückrollHöhe-X" value="Rückrollwinkel bei max. Hubhöhe"/>
+<l:gentext key="meta.PGK.AuskippHöhe-Y" value="Auskippwinkel bei max. Hubhöhe"/>
+<l:gentext key="meta.PGK.RückrollBoden-Z" value="Rückrollwinkel am Boden"/>
+<l:gentext key="meta.PGK.GesamtlängePalette-A" value="Gesamtlänge (mit Pallettengabel)"/>
+<l:gentext key="meta.PGK.GArbeitshöhePalette-J" value="Gesamtarbeitshöhe (mit Palettengabel)"/>
+<l:gentext key="meta.PGK.ÜberladehöhePalette-L" value="Überladehöhe (mit Palettengabel)"/>
+<l:gentext key="meta.PGK.ReichweiteÜberladehöhe-N" value="Maximale Reichweite bei Überladehöhe"/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PGK Abmessungen Teleskop -->
+<l:gentext key="meta.PGK.Tele.GesamtlängeSchaufel-A" value="Gesamtlänge (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.GesamtlängeOhne-B" value="Gesamtlänge (ohne Schaufel, eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.Drehpunkt-C" value="Schaufeldrehpunkt (bis Achsmitte) (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.Radstand-D" value="Radstand"/>
+<l:gentext key="meta.PGK.Tele.Überhang-E" value="Hecküberhang"/>
+<l:gentext key="meta.PGK.Tele.HöheFSD-F" value="Höhe mit Fahrerschutzdach fest"/>
+<l:gentext key="meta.PGK.Tele.HöheFSDniedrig-F" value="Höhe mit Fahrerschutzdach niedrig"/>
+<l:gentext key="meta.PGK.Tele.HöheFSDhoch-F" value="Höhe mit Fahrerschutzdach hoch"/>
+<l:gentext key="meta.PGK.Tele.HöheEPS-F" value="Höhe mit Fahrerschutzdach klappbar (eps)"/>
+<l:gentext key="meta.PGK.Tele.HöheEPSgeklappt-F" value="Höhe mit Fahrerschutzdach klappbar (eps), umgeklappt"/>
+<l:gentext key="meta.PGK.Tele.HöheEPSplus-F" value="Höhe mit Fahrerschutzdach absenkbar (epsPlus)"/>
+<l:gentext key="meta.PGK.Tele.HöheEPSplusGesenkt-F" value="Höhe mit Fahrerschutzdach absenkbar (epsPlus), abgesenkt"/>
+<l:gentext key="meta.PGK.Tele.HöheKab-F" value="Höhe mit Kabine"/>
+<l:gentext key="meta.PGK.Tele.HöheKabKlima-F" value="Höhe mit Kabine mit Klimaanlage"/>
+<l:gentext key="meta.PGK.Tele.HöheKabNiedrig-F" value="Höhe mit Kabine niedrig"/>
+<l:gentext key="meta.PGK.Tele.HöheKabHoch-F" value="Höhe mit Kabine hoch"/>
+<l:gentext key="meta.PGK.Tele.Sitzhöhe-H" value="Sitzhöhe"/>
+<l:gentext key="meta.PGK.Tele.GArbeitshöheSchaufel-J" value="Gesamtarbeitshöhe (mit Standardschaufel) (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.HöheDrehpunkt-K" value="Max. Höhe Schaufeldrehpunkt (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.ÜberladehöheSchaufel-L" value="Überladehöhe (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.AuskipphöheSchaufel-M" value="Auskipphöhe (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.Reichweite-N" value="Reichweite bei M (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.Schürftiefe-O" value="Schürftiefe"/>
+<l:gentext key="meta.PGK.Tele.Breite-P" value="Gesamtbreite"/>
+<l:gentext key="meta.PGK.Tele.Spurbreite-Q" value="Spurbreite"/>
+<l:gentext key="meta.PGK.Tele.BreiteFSD-R" value="Breite über Fahrerschutzdach"/>
+<l:gentext key="meta.PGK.Tele.BreiteKab-R" value="Breite über Kabine"/>
+<l:gentext key="meta.PGK.Tele.Bodenfreiheit-S" value="Bodenfreiheit"/>
+<l:gentext key="meta.PGK.Tele.RadiusAußen-T" value="Max. Radius außen (abhängig von der Schaufelbreite)"/>
+<l:gentext key="meta.PGK.Tele.RadiusRand-U" value="Radius am Außenrand"/>
+<l:gentext key="meta.PGK.Tele.RadiusInnen-V" value="Innenradius"/>
+<l:gentext key="meta.PGK.Tele.Knickwinkel-W" value="Knickwinkel/Lenkeinschlag"/>
+<l:gentext key="meta.PGK.Tele.Pendelwinkel" value="Pendelwinkel"/>
+<l:gentext key="meta.PGK.Tele.RückrollHöhe-X" value="Rückrollwinkel bei max. Hubhöhe"/>
+<l:gentext key="meta.PGK.Tele.AuskippHöhe-Y" value="Auskippwinkel bei max. Hubhöhe"/>
+<l:gentext key="meta.PGK.Tele.RückrollBoden-Z" value="Rückrollwinkel am Boden"/>
+<l:gentext key="meta.PGK.Tele.GesamtlängePalette-A" value="Gesamtlänge (mit Pallettengabel) (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.GArbeitshöhePalette-J" value="Gesamtarbeitshöhe (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.ÜberladehöhePalette-L" value="Überladehöhe (Mit Palettengabel) (eingefahren/ ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.ReichweiteÜberladehöhe-N" value="Maximale Reichweite bei Überladehöhe (eingefahren/ ausgefahren) "/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PGK Gewichte Standard -->
+<l:gentext key="emptyCellGewichte" value="Bezeichnung (Werte in kg)"/>
+<l:gentext key="meta.PGK.WeightsValue" value="kg"/>
+<l:gentext key="meta.PGK.Betriebsgewicht" value="Betriebsgewicht"/>
+<l:gentext key="meta.PGK.zulGesamtgewicht" value="zulässiges Gesamtgewicht"/>
+<l:gentext key="meta.PGK.AchslastHinten" value="zulässige Achslast hinten"/>
+<l:gentext key="meta.PGK.AchslastVorne" value="zulässige Achslast vorne"/>
+<l:gentext key="meta.PGK.SchaufelKippGerade" value="Kipplast mit Schaufel Ladeanlage horizontal, Fahrzeug gerade"/>
+<l:gentext key="meta.PGK.SchaufelKippGeknickt" value="Kipplast mit Schaufel Ladeanlage horizontal, Fahrzeug geknickt"/>
+<l:gentext key="meta.PGK.SchaufelNutzlast" value="Nutzlast mit Schaufel (S=2)"/>
+<l:gentext key="meta.PGK.PaletteKippGerade" value="Kipplast mit Palettengabel Ladeanlage horizontal, Fahrzeug gerade"/>
+<l:gentext key="meta.PGK.PaletteKippGeknickt" value="Kipplast mit Palettengabel Ladeanlage horizontal, Fahrzeug geknickt"/>
+<l:gentext key="meta.PGK.PaletteTraglastS125" value="Traglast mit Palettengabel (S=1,25)"/>
+<l:gentext key="meta.PGK.PaletteTraglastS167" value="Traglast mit Palettengabel (S=1,67)"/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PGK Gewichte Teleskop -->
+<l:gentext key="meta.PGK.Tele.Betriebsgewicht" value="Betriebsgewicht"/>
+<l:gentext key="meta.PGK.Tele.zulGesamtgewicht" value="zulässiges Gesamtgewicht"/>
+<l:gentext key="meta.PGK.Tele.AchslastHinten" value="zulässige Achslast hinten"/>
+<l:gentext key="meta.PGK.Tele.AchslastVorne" value="zulässige Achslast vorne"/>
+<l:gentext key="meta.PGK.Tele.SchaufelKippGerade" value="Kipplast mit Schaufel Ladeanlage horizontal, Fahrzeug gerade (eingefahren/ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.SchaufelKippGeknickt" value="Kipplast mit Schaufel Ladeanlage horizontal, Fahrzeug geknickt (eingefahren/ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.SchaufelNutzlast" value="Nutzlast mit Schaufel (S=2) (eingefahren/ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.PaletteKippGerade" value="Kipplast mit Palettengabel Ladeanlage horizontal, Fahrzeug gerade (eingefahren/ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.PaletteKippGeknickt" value="Kipplast mit Palettengabel Ladeanlage horizontal, Fahrzeug geknickt (eingefahren/ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.PaletteTraglastS125" value="Traglast mit Palettengabel (S=1,25) (eingefahren/ausgefahren)"/>
+<l:gentext key="meta.PGK.Tele.PaletteTraglastS167" value="Traglast mit Palettengabel (S=1,67) (eingefahren/ausgefahren)"/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Texte für die ETK-Produktion -->
+<l:gentext key="custom.toc.title" value="Inhaltsverzeichnis"/>
+<l:gentext key="custom.toc.bookmark.title" value="INHALTSVERZEICHNIS"/>
+<l:gentext key="custom.table.portrait.position" value="Pos."/>
+<l:gentext key="custom.table.portrait.partno" value="Artikel Nr."/>
+<l:gentext key="custom.table.portrait.qty" value="St."/>
+<l:gentext key="custom.table.portrait.description" value="Beschreibung"/>
+<l:gentext key="custom.table.portrait.measurement" value="Abm."/>
+<l:gentext key="custom.table.portrait.torque" value="Drehmoment"/>
+<l:gentext key="custom.table.portrait.norm" value="Norm"/>
+<l:gentext key="custom.table.portrait.sealant" value="Schmierstoff"/>
+<l:gentext key="custom.table.portrait.unit" value="Gerät"/>
+<l:gentext key="custom.table.landscape.information" value="Information"/>
+<l:gentext key="custom.notice.title" value="Notiz"/>
+<l:gentext key="custom.cover.etk.title" value="Ersatzteilkatalog"/>
+<l:gentext key="custom.pictorgrams.title" value="Piktogramme"/>
+<l:gentext key="meta.TechData.Depth" value="Tiefe in mm" />
+<l:gentext key="meta.TechData.eConsumtion" value="Jährl. Energieverbrauch in kWh/Jahr" />
+<l:gentext key="meta.TechData.Height" value="Höhe in mm" />
+<l:gentext key="meta.TechData.Speed" value="Drehzahl in U/Min" />
+<l:gentext key="meta.TechData.Time" value="Zeit in min." />
+<l:gentext key="meta.TechData.Volume" value="Füllmenge in kg" />
+<l:gentext key="meta.TechData.wConsumption" value="Wasserverbrauch in l" />
+<l:gentext key="meta.TechData.Width" value="Breite in mm" />
+<l:gentext key="custom.cover.properties.type" value="Type"/>
+<l:gentext key="custom.cover.properties.serialnumber" value="Serial Number"/>
+<l:gentext key="custom.cover.properties.version" value="Version"/>
+<l:gentext key="custom.cover.properties.materialnumber" value="Material Number"/>
+<l:gentext key="custom.cover.properties.docordernumber" value="Doc. Order No."/>
+<l:gentext key="custom.cover.properties.date" value="Date"/>
+<l:gentext key="custom.cover.properties.language" value="Language"/>
+<l:gentext key="custom.cover.watermark" value="internal" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Variable für die verschiedenen Produkte meta.Pub.ProductType_CE -->
+<l:gentext key="Akkumulator" value="Akkumulator"/>
+<l:gentext key="Akku-Innenrüttler" value="Akku-Innenrüttler"/>
+<l:gentext key="Aufbruchhammer" value="Aufbruchhammer"/>
+<l:gentext key="Außenrüttler" value="Außenrüttler"/>
+<l:gentext key="Baggerlader" value="Baggerlader" />
+<l:gentext key="Balkentraverse" value="Balkentraverse"/>
+<l:gentext key="Bewehrungsbindegerät" value="Bewehrungsbindegerät"/>
+<l:gentext key="Climate" value="Heizer"/>
+<l:gentext key="Frequenzumformer" value="Frequenzumformer"/>
+<l:gentext key="Fugenschneider" value="Fugenschneider"/>
+<l:gentext key="Führungswagen" value="Führungswagen"/>
+<l:gentext key="Generator" value="Generator"/>
+<l:gentext key="Hoftrac" value="Hoftrac" /> <!-- Hoftrac nicht in Sprachen übersetzen! "Value" für die Sprachen übernehmen!-->
+<l:gentext key="Innenrüttler" value="Innenrüttler"/>
+<l:gentext key="Kettenbagger" value="Kettenbagger" />
+<l:gentext key="Kettendumper" value="Kettendumper" />
+<l:gentext key="KompakterRaupenlader" value="Kompakter Raupenlader" />
+<l:gentext key="Kompaktlader" value="Kompaktlader" />
+<l:gentext key="Ladegerät" value="Ladegerät"/>
+<l:gentext key="Leuchtballon" value="Leuchtballon"/>
+<l:gentext key="Lichtmast" value="Lichtmast" />
+<l:gentext key="Mobilbagger" value="Mobilbagger" />
+<l:gentext key="Modularer Innenrüttler" value="Modularer Innenrüttler"/>
+<l:gentext key="Raddumper" value="Raddumper" />
+<l:gentext key="Radlader" value="Radlader" />
+<l:gentext key="Stampfer" value="Stampfer"/>
+<l:gentext key="Teleskoplader" value="Teleskoplader" />
+<l:gentext key="Teleskopradlader" value="Teleskopradlader" />
+<l:gentext key="Trennschleifer" value="Trennschleifer"/>
+<l:gentext key="Verteilerkasten" value="Verteilerkasten"/>
+<l:gentext key="Vibrationsplatte" value="Vibrationsplatte"/>
+<l:gentext key="Vorschaltgerät" value="Vorschaltgerät"/>
+<l:gentext key="Walze" value="Walze" />
+<l:gentext key="TrenchRoller" value="Grabenwalze" />
+<l:gentext key="RideonRoller" value="Aufsitzvibrationswalze" />
+<l:gentext key="Attachment" value="Anbaugerät" />
+<l:gentext key="UTL" value="Utility Track Loader"/>
+<l:gentext key="Pump" value="Pumpe"/>
+<l:gentext key="PortableGen" value="Tragbarer Generator"/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Variable für die verschiedenen Produkte meta.Pub.AttachName -->
+<l:gentext key="PalettFork" value="Palettengabel" />
+<l:gentext key="SideSwivelBucket" value="Seitenschwenkschaufel" />
+<l:gentext key="MaterialPusher" value="Materialschieber" />
+<l:gentext key="StackingDevice" value="Stapeleinrichtung" />
+<l:gentext key="LoadHook" value="Lasthaken" />
+<l:gentext key="BaleSpike" value="Ballenspieß" />
+<l:gentext key="BaleForceps" value="Ballenzange" />
+<l:gentext key="ManureFork" value="Dunggabel" />
+<l:gentext key="QuickHitch" value="Schnellwechselsystem" />
+<l:gentext key="WorkingPlatform" value="Arbeitsplattform" />
+<l:gentext key="KrSWP" value="Vollhydraulisches KRAMER-Schnellwechselsystem" />
+<l:gentext key="DoubleKnifeMower" value="Doppelmessermähwerk" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Werte aus ursprünglicher Language.xml -->
+<l:gentext key="aria.breadcrumb" value="Breadcrumb Naviagation" />
+<l:gentext key="aria.footerLabel" value="Copyright" />
+<l:gentext key="aria.langMenu" value="Sprachenauswahl" />
+<l:gentext key="aria.letterPagination" value="Alphabetische Navigation" />
+<l:gentext key="aria.listStep" value="Schritt" />
+<l:gentext key="aria.navbar" value="Navigationsleiste" />
+<l:gentext key="aria.pagination" value="Seitennummernnaviagtion" />
+<l:gentext key="aria.piConditions" value="Voraussetzungen" />
+<l:gentext key="aria.piInstructions" value="Anweisungen" />
+<l:gentext key="aria.piIntermediateResult" value="Zwischenergebnisse" />
+<l:gentext key="aria.piResults" value="Ergebnisse" />
+<l:gentext key="aria.proceduralinstructions" value="Handlungsanweisung" />
+<l:gentext key="aria.safetyCause" value="Ursache" />
+<l:gentext key="aria.safetyCondition" value="Voraussetzungen" />
+<l:gentext key="aria.safetyConsequences" value="Folgen" />
+<l:gentext key="aria.safetyInstructions" value="Sicherheitsanweisungen" />
+<l:gentext key="aria.safetyIntermediateResult" value="Zwischenergebnisse" />
+<l:gentext key="aria.safetyResult" value="Ergebnisse" />
+<l:gentext key="aria.safetySymbol" value="Warnsymbol" />
+<l:gentext key="aria.searchresults" value="Suchergebnisse" />
+<l:gentext key="aria.siteHeader" value="Kopfzeile" />
+<l:gentext key="aria.tocToggleChapter" value="Kapitelebene umschalten" />
+<l:gentext key="aria.ToggleToc" value="Inhaltsverzeichnis umschalten" />
+<l:gentext key="commented.by" value="Kommentar von" />
+<l:gentext key="componentlink" value="Weiterführende Komponenten" />
+<l:gentext key="deadly" value="tödlich" />
+<l:gentext key="edition" value="Ausgabe" />
+<l:gentext key="footnotes" value="Fußnoten" />
+<l:gentext key="furtherinformation" value="Weiterführende Informationen" />
+<l:gentext key="glossary" value="Glossar" />
+<l:gentext key="glossaryentry" value="Glossareintrag" />
+<l:gentext key="graficgrouplink" value="Beinhaltete Grafik-Ressourcen" />
+<l:gentext key="GrammaticalGender" value="Genus" />
+<l:gentext key="images" value="Bilder" />
+<l:gentext key="index" value="Index" />
+<l:gentext key="indexsections" value="Symbole[*];Numerisch[0-9];A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;W;X;Y;Z" />
+<l:gentext key="label.continuation" value="Fortsetzung" />
+<l:gentext key="label.fig" value="Abb." />
+<l:gentext key="label.of" value="von" />
+<l:gentext key="label.part" value="TEIL" />
+<l:gentext key="label.table" value="Tab." />
+<l:gentext key="Language" value="Sprache" />
+<l:gentext key="lexicon" value="Lexikon" />
+<l:gentext key="LösungTaxonomyLink" value="Ursache" />
+<l:gentext key="maintenance.duration" value="Benötigte Zeit" />
+<l:gentext key="maintenance.facilities" value="Hilfsmittel" />
+<l:gentext key="maintenance.interval" value="Wartungsintervall" />
+<l:gentext key="maintenance.title" value="Wartungshinweise" />
+<l:gentext key="maintenance.tools" value="Spezialwerkzeug" />
+<l:gentext key="MaintenanceCycleLink" value="Wartungszyklus" />
+<l:gentext key="multilangtitle" value="Titelseite" />
+<l:gentext key="multilangtoc" value="Inhaltsverzeichnis" />
+<l:gentext key="nav.back" value="zurück" />
+<l:gentext key="nav.back-to" value="Zurück zu..." />
+<l:gentext key="nav.components" value="Komponenten" />
+<l:gentext key="nav.content" value="Sitemap" />
+<l:gentext key="nav.glossary" value="Glossar" />
+<l:gentext key="nav.glossry" value="Glossar" />
+<l:gentext key="nav.home" value="Home" />
+<l:gentext key="nav.index" value="Index" />
+<l:gentext key="nav.infotypes" value="Informationsarten" />
+<l:gentext key="nav.menu" value="Menü" />
+<l:gentext key="nav.print" value="Drucken" />
+<l:gentext key="nav.search" value="Suche" />
+<l:gentext key="nav.to-infotypes" value="vorhandene Informationsarten" />
+<l:gentext key="notes" value="Notizen" />
+<l:gentext key="PersonnelLink" value="Personal" />
+<l:gentext key="ProblemTaxonomyLink" value="Problem" />
+<l:gentext key="relatedDocuments" value="Dokumente hierzu" />
+<l:gentext key="search.info" value="Ergebnisse gefunden für" />
+<l:gentext key="search.submit" value="Suche ausführen" />
+<l:gentext key="seealsolink" value="Sehen Sie dazu auch" />
+<l:gentext key="seedocuments" value="Dokumente hierzu" />
+<l:gentext key="seq.images" value="Bild" />
+<l:gentext key="seq.tables" value="Tabelle" />
+<l:gentext key="SortKey" value="Sortierschlüssel" />
+<l:gentext key="step" value="Schritt" />
+<l:gentext key="SubjectField" value="Sachgebiet" />
+<l:gentext key="tables" value="Tabellen" />
+<l:gentext key="Term" value="Benennung" />
+<l:gentext key="toc" value="Inhaltsverzeichnis" />
+<l:gentext key="unresolved.link" value="&gt;Link konnte nicht aufgelöst werden&lt;" />
+<l:gentext key="Validity" value="Status" />
+<l:gentext key="version" value="Version" />
+<l:gentext key="WatermarkText" value="vorläufig" />
+<l:gentext key="xref" value="Die Informationen finden Sie im Dokument auf Seite " />
+<l:gentext key="xreftoc" value="(Wiederverwendung)" />
+<l:gentext key="blank" value="Diese Seite wurde absichtlich freigelassen." />
+<l:gentext key="Valid_PL" value="Gültig ab: "/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<l:gentext key="meta.DoC.averagedNoise" value="Gemittelter Schallleistungspegel dB(A)" />
+<l:gentext key="meta.DoC.measuredNoise" value="Gemessener Schallleistungspegel dB(A)" />
+<l:gentext key="meta.DoC.guaranteedNoise" value="Garantierter Schallleistungspegel dB(A)" />
+<l:gentext key="meta.DoC.Power.PGK" value="Leistung kW bei Nenndrehzahl min-1" />
+<l:gentext key="meta.DoC.Power.PGP" value="Leistung kW" />
+<l:gentext key="meta.DoC.Power.PAL" value="Motor / Leistung in kW" />
+<l:gentext key="meta.DoC.Producttype" value="Fahrzeugtyp" />
+<l:gentext key="meta.DoC.TradeName" value="Handelsbezeichnung" />
+<l:gentext key="meta.DoC.Matnummer" value="Materialnummer" />
+<l:gentext key="meta.DoC.VIN" value="Fahrgestell-Nummer" />
+<l:gentext key="meta.DoC.Typedesignation" value="Typ/Ausführung" />
+<l:gentext key="custom.DoC.Footer" value="Original-Konformitätserklärung" />
+<l:gentext key="custom.DoC.Footer.PGK" value="Abbildung der Original-Konformitätserklärung" />
+<l:gentext key="custom.DoM.Footer" value="Original-Herstellererklärung"/>
+<l:gentext key="custom.DoM.Footer.PGK" value="Abbildung der Original-Herstellererklärung"/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!--Wert für meta.DoC.CE-Conform -->
+<l:gentext key="Declaration of Conformity" value="EG-/EU-Konformitätserklärung" />
+<l:gentext key="Declaration of Manufacturer" value="Herstellererklärung" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!--Wert für Service Informations -->
+<l:gentext key="BulletinNumber" value="Nummer" />
+<l:gentext key="BulletinProductGroup" value="Produkt" />
+<l:gentext key="BulletinProductType" value="Typ" />
+<l:gentext key="BulletinConfidential" value="Streng vertraulich" />
+<l:gentext key="BulletinInternal" value="Nur für internen Gebrauch" />
+<l:gentext key="BulletinPassFurther" value="Nicht an Dritte weitergeben." />
+<l:gentext key="BulletinSafetyrelevant" value="Sicherheitsrelevant" />
+<l:gentext key="BulletinManagingDirector" value="Geschäftsführer" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<!-- Seitenangabe II -->
+<l:gentext key="Page" value="Seite" />
+<l:gentext key="von" value="von" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<l:gentext key="Unterschrift" value="Unterschrift" />
+<l:gentext key="KD-Fachmann" value="KD-Fachmann" />
+<l:gentext key="Service-Partner" value="Service-Partner" />
+<l:gentext key="Stempel" value="Stempel" />
+<l:gentext key="Serviceheft_Hinweis1" value="Die in der Betriebsanleitung aufgeführten Kontroll- und Wartungsarbeiten wurden ordnungsgemäß durchgeführt." />
+<l:gentext key="und" value="und" />
+<l:gentext key="Maschinen-Bezeichnung" value="Maschinen-Bezeichnung" />
+<l:gentext key="Auftrags-Nummer" value="Auftrags-Nummer" />
+<l:gentext key="Betriebsstunden" value="Betriebsstunden" />
+<l:gentext key="Firmenstempel" value="Firmenstempel" />
+<l:gentext key="Ort" value="Ort" />
+<l:gentext key="Endkunde" value="Endkunde" />
+<l:gentext key="Besitzer" value="Besitzer" />
+<l:gentext key="Serviceheft_Hinweis2" value="Ihrer Unterschrift berechtigt uns, die im Rahmen der Geschäftsverbindung erhaltenen personenbezogenen Daten im Sinne des Bundesdatenschutzgesetzes (BDSG) nach §4 und §5 zu erheben und zu verarbeiten" />
+<l:gentext key="Serviceheft_Hinweis3.1" value="Das Fahrzeug wurde ordnungsgemäß in einwandfreiem Zustand mit Betriebsanleitung durch den Service-Partner an den Kunden übergeben." />
+<l:gentext key="Serviceheft_Hinweis3.2" value="Eine eingehende Einweisung über die Verwendung, Bedienung und Wartung des Fahrzeugs wurde erteilt und verstanden." />
+<l:gentext key="Serviceheft_Hinweis3.3" value="Die Übergabeinspektion sowie die Übergabe wurde ordnungsgemäß durchgeführt." />
+<l:gentext key="Serviceheft_Hinweis3.4" value="Bei einem Testlauf und einer Probefahrt wurden keine Mängel festgestellt." />
+<l:gentext key="weiss" value="weiß" />
+<l:gentext key="rot" value="rot" />
+<l:gentext key="DokNummer" value="Dok. Nummernmarke" />
+<l:gentext key="BestNummer" value="Best.-Nr." />
+<l:gentext key="verantwortlicher" value="verantwortlicher" />
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<l:gentext key="Prelim_Text_PAL1" value="In dieser Vorab-Betriebsanleitung sind Warnhinweise und Anweisungen für ein Vorserienfahrzeug beschrieben. Textstellen, Fotos und Grafiken können vom tatsächlichen Vorserienfahreug abweichen." />
+<l:gentext key="Prelim_Text_PAL2" value="Bestimmte Arbeiten (z. B. Hebezeugbetrieb) dürfen aufgrund noch nicht vorliegender Daten nicht durchgeführt werden." />
+<l:gentext key="Prelim_Text_PAL3" value="Im Zweifelsfall muss Wacker Neuson kontaktiert werden."/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<l:gentext key="OEM_Serial_No_Valid" value="Gültig ab Seriennummer"/>
+<l:gentext key="OEM_Series" value="Serie"/>
+<l:gentext key="OEM_Date_first_issue" value="Datum der ersten Ausgabe"/>
+<l:gentext key="OEM_Order_Number" value="Bestellnummer"/>
+<!-- ==================================================================== -->
+
+<!-- ==================================================================== -->
+<l:gentext key="Imp.Heading" value="Impressum"/>
+<l:gentext key="Imp.Heading2" value="Herausgeber und Rechteinhaber:"/>
+<l:gentext key="Imp.ALL.Add1" value="Sitz der Gesellschaft: "/>
+<l:gentext key="Imp.PAL.Add1" value="Registergericht und -nummer: Landesgericht Linz, FN 174794 A"/>
+<l:gentext key="Imp.PGK.Add1" value="Registergericht und -nummer: Amtsgericht Korbach, HRB 262"/>
+<l:gentext key="Imp.PGP.Add1" value="Registergericht und -nummer: Amtsgericht Ulm, HRB 726727"/>
+<l:gentext key="Imp.PGR.Add1" value="Registergericht und -nummer: Amtsgericht Ingolstadt, HRA3195"/>
+<l:gentext key="Imp.PGR.Add6" value="Ust.-Id.-Nr./VAT-Nummer:"/>
+<l:gentext key="Imp.ALL.Add2" value="Telefon:"/>
+<l:gentext key="Imp.ALL.Add3" value="Telefax:"/>
+<l:gentext key="Imp.ALL.Add-OEM" value="Hergestellt für:"/>
+<l:gentext key="Imp.ALL.OrgOM" value="Original-Betriebsanleitung"/>
+<l:gentext key="Imp.ALL.P1" value="Alle Rechte vorbehalten, insbesondere Urheberrecht, Recht der Vervielfältigung und Recht der Verbreitung."/>
+<l:gentext key="Imp.ALL.P2" value="Diese Druckschrift darf vom Empfänger nur für den vorgesehenen Zweck verwendet werden. Sie darf ohne vorherige schriftliche Zustimmung in keiner Weise ganz oder teilweise vervielfältigt oder übersetzt werden."/>
+<l:gentext key="Imp.PGK.P3" value="Nachdruck oder Übersetzung, auch auszugsweise, dürfen nur mit schriftlicher Zustimmung der Weidemann GmbH erfolgen."/>
+<l:gentext key="Imp.PGP.P3" value="Nachdruck oder Übersetzung, auch auszugsweise, dürfen nur mit schriftlicher Zustimmung der Kramer-Werke GmbH erfolgen."/>
+<l:gentext key="Imp.PAL.P3" value="Nachdruck oder Übersetzung, auch auszugsweise, dürfen nur mit schriftlicher Zustimmung der Wacker Neuson Linz GmbH erfolgen."/>
+<l:gentext key="Imp.PGR.P3" value="Nachdruck oder Übersetzung, auch auszugsweise, dürfen nur mit schriftlicher Zustimmung der Wacker Neuson Produktion GmbH &amp; Co. KG erfolgen."/>
+<l:gentext key="Imp.PUM.P3" value="Nachdruck oder Übersetzung, auch auszugsweise, dürfen nur mit schriftlicher Zustimmung der Wacker Neuson America Corporation erfolgen."/>
+<l:gentext key="Imp.ALL.P4" value="Jeder Verstoß gegen die gesetzlichen Bestimmungen insbesondere zum Schutz des Urheberrechts wird zivil- und strafrechtlich verfolgt."/>
+<l:gentext key="Imp.PGK.P5" value="Weidemann GmbH behält sich das Recht vor, ihre Produkte und deren technische Spezifikationen zur technischen Weiterentwicklung jederzeit zu ändern, ohne dass daraus ein Anspruch auf Änderungen an bereits ausgelieferten Maschinen abgeleitet werden kann. Es gelten jeweils die Informationen in der Technischen Dokumentation, die mit dem Produkt ausgeliefert werden."/>
+<l:gentext key="Imp.PGP.P5" value="Kramer-Werke GmbH behält sich das Recht vor, ihre Produkte und deren technische Spezifikationen zur technischen Weiterentwicklung jederzeit zu ändern, ohne dass daraus ein Anspruch auf Änderungen an bereits ausgelieferten Maschinen abgeleitet werden kann. Es gelten jeweils die Informationen in der Technischen Dokumentation, die mit dem Produkt ausgeliefert werden."/>
+<l:gentext key="Imp.PAL.P5" value="Wacker Neuson Linz GmbH behält sich das Recht vor, ihre Produkte und deren technische Spezifikationen zur technischen Weiterentwicklung jederzeit zu ändern, ohne dass daraus ein Anspruch auf Änderungen an bereits ausgelieferten Maschinen abgeleitet werden kann. Es gelten jeweils die Informationen in der Technischen Dokumentation, die mit dem Produkt ausgeliefert werden."/>
+<l:gentext key="Imp.PGR.P5" value="Wacker Neuson Produktion GmbH &amp; Co. KG behält sich das Recht vor, ihre Produkte und deren technische Spezifikationen zur technischen Weiterentwicklung jederzeit zu ändern, ohne dass daraus ein Anspruch auf Änderungen an bereits ausgelieferten Maschinen abgeleitet werden kann. Es gelten jeweils die Informationen in der Technischen Dokumentation, die mit dem Produkt ausgeliefert werden."/>
+<l:gentext key="Imp.PUM.P5" value="Wacker Neuson America Corporation behält sich das Recht vor, ihre Produkte und deren technische Spezifikationen zur technischen Weiterentwicklung jederzeit zu ändern, ohne dass daraus ein Anspruch auf Änderungen an bereits ausgelieferten Maschinen abgeleitet werden kann. Es gelten jeweils die Informationen in der Technischen Dokumentation, die mit dem Produkt ausgeliefert werden."/>
+<l:gentext key="Imp.ALL.P6" value="Die Maschine auf dem Titelbild dient der Veranschaulichung und kann demnach Sonderausrüstungen (Optionen) aufweisen."/>
+<l:gentext key="Imp.PAL.P7" value="Wacker Neuson Linz GmbH, Änderungen und Irrtümer vorbehalten, printed in Austria."/>
+<l:gentext key="Imp.PGK.P7" value="Weidemann GmbH, Änderungen und Irrtümer vorbehalten, printed in Germany."/>
+<l:gentext key="Imp.PGP.P7" value="Kramer-Werke GmbH, Änderungen und Irrtümer vorbehalten, printed in Germany."/>
+<l:gentext key="Imp.PGR.P7" value="Wacker Neuson Produktion GmbH &amp; Co. KG, Änderungen und Irrtümer vorbehalten, printed in Germany."/>
+<l:gentext key="Imp.PUM.P7" value="Wacker Neuson America Corporation, Änderungen und Irrtümer vorbehalten, printed in USA."/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Datenknoten PUM Technical Data -->
+<l:gentext key="meta.PUM.ACReceptacles" value="Netzsteckdose"/>
+<l:gentext key="meta.PUM.AirCleaner" value="Luftreiniger"/>
+<l:gentext key="meta.PUM.Alternator" value="Generator"/>
+<l:gentext key="meta.PUM.Amps" value="Ampere"/>
+<l:gentext key="meta.PUM.AuxHydFlowHigh" value="Zusatzhydraulikölfluss – Hoch"/>
+<l:gentext key="meta.PUM.AuxHydFlowStd" value="Zusatzhydraulikölfluss – Standard"/>
+<l:gentext key="meta.PUM.AuxHydReliefPress" value="Zusätzlicher hydraulischer Entlastungsdruck"/>
+<l:gentext key="meta.PUM.Battery" value="Batterie"/>
+<l:gentext key="meta.PUM.BeamSpread" value="NEMA-Strahlausbreitung"/>
+<l:gentext key="meta.PUM.BoreStroke" value="Nennbohrung und Hub"/>
+<l:gentext key="meta.PUM.BreakoutForceBoom" value="Ausbruchskraft – Boom"/>
+<l:gentext key="meta.PUM.BreakoutForceBucket" value="Ausbruchskraft – Eimer"/>
+<l:gentext key="meta.PUM.ChainTankCapacity" value="Kapazität des Kettentanks"/>
+<l:gentext key="meta.PUM.Controls" value="Kontrollen"/>
+<l:gentext key="meta.PUM.CoolantCapacity" value="Kühlmittelkapazität"/>
+<l:gentext key="meta.PUM.CoolantType" value="Kühlmitteltyp"/>
+<l:gentext key="meta.PUM.Cylinders" value="Anzahl der Zylinder"/>
+<l:gentext key="meta.PUM.DEFTankCapacity" value="DEF-Tankkapazität"/>
+<l:gentext key="meta.PUM.Dimensions" value="Maße"/>
+<l:gentext key="meta.PUM.DimensionsTransport" value="Abmessungen in Transport (L x W x H)"/>
+<l:gentext key="meta.PUM.Discharge" value="Entladen"/>
+<l:gentext key="meta.PUM.Displacement" value="Verschiebung"/>
+<l:gentext key="meta.PUM.DriveMotor" value="Antriebsmotor"/>
+<l:gentext key="meta.PUM.DryWeight" value="Trockengewicht"/>
+<l:gentext key="meta.PUM.DualBattery" value="Doppelbatterie"/>
+<l:gentext key="meta.PUM.Emissions" value="Emissionen"/>
+<l:gentext key="meta.PUM.EngineMake" value="Motormarke"/>
+<l:gentext key="meta.PUM.EngineModel" value="Motormodell"/>
+<l:gentext key="meta.PUM.EngineType" value="Motortyp"/>
+<l:gentext key="meta.PUM.ExcitationType" value="Anregungstyp"/>
+<l:gentext key="meta.PUM.Frequency" value="Frequenz"/>
+<l:gentext key="meta.PUM.Fuel" value="Kraftstoff"/>
+<l:gentext key="meta.PUM.FuelConsumption" value="Kraftstoffverbrauch"/>
+<l:gentext key="meta.PUM.FuelFourLights" value="Kraftstoffverbrauch – vier Lichter"/>
+<l:gentext key="meta.PUM.FuelInjection" value="Kraftstoffeinspritzsystem"/>
+<l:gentext key="meta.PUM.FuelTankCapacity" value="Treibstofftank Kapazität"/>
+<l:gentext key="meta.PUM.GenModel" value="Generatormodell"/>
+<l:gentext key="meta.PUM.GenOutput" value="Ausgabe"/>
+<l:gentext key="meta.PUM.GrossTorque" value="Bruttodrehmoment"/>
+<l:gentext key="meta.PUM.GroundPressure" value="Bodendruck"/>
+<l:gentext key="meta.PUM.HeightMastUp" value="Höhe – Mast ausgefahren"/>
+<l:gentext key="meta.PUM.HydOilCapacity" value="Höhe – Mast ausgefahren"/>
+<l:gentext key="meta.PUM.HydraulicOilType" value="Hydrauliköltyp"/>
+<l:gentext key="meta.PUM.IdlingSpeed" value="Leerlaufgeschwindigkeit"/>
+<l:gentext key="meta.PUM.Lamp" value="Lampe"/>
+<l:gentext key="meta.PUM.LampWattage" value="Lampenleistung"/>
+<l:gentext key="meta.PUM.LightingCoverage" value="Beleuchtungsabdeckung @ 5 fc"/>
+<l:gentext key="meta.PUM.MastLiftingMethod" value="Masthebemethode"/>
+<l:gentext key="meta.PUM.MastRotation" value="Mastdrehung"/>
+<l:gentext key="meta.PUM.MaxCapacity" value="Maximale Kapazität"/>
+<l:gentext key="meta.PUM.MaxHead" value="Maximaler Kopf"/>
+<l:gentext key="meta.PUM.MaxSpeed" value="Maximale Motordrehzahl ohne Last"/>
+<l:gentext key="meta.PUM.MaxTractiveEffort" value="Maximale Zugkraft"/>
+<l:gentext key="meta.PUM.MaxWindSpeed" value="Maximale Windgeschwindigkeit"/>
+<l:gentext key="meta.PUM.OilCapacity" value="Öl Kapazität"/>
+<l:gentext key="meta.PUM.OilGrade" value="Ölsorte"/>
+<l:gentext key="meta.PUM.OperatingSpeed" value="Arbeitsgeschwindigkeit"/>
+<l:gentext key="meta.PUM.OperatingWeight" value="Betriebsgewicht"/>
+<l:gentext key="meta.PUM.OptTankCapacity" value="Optionale Tankkapazität"/>
+<l:gentext key="meta.PUM.Phase" value="Phase"/>
+<l:gentext key="meta.PUM.PowerFactor" value="Leistungsfaktor"/>
+<l:gentext key="meta.PUM.PowertoSocket" value="Verfügbarer Strom für die Zusatzsteckdose"/>
+<l:gentext key="meta.PUM.PSI" value="Maximaler Druck"/>
+<l:gentext key="meta.PUM.RatedCurrent" value="Nennstrom"/>
+<l:gentext key="meta.PUM.RatedPowerSpeed" value="Nenn-Standby-Leistung bei Nenngeschwindigkeit"/>
+<l:gentext key="meta.PUM.ROC35TipLoad" value="Nennbetriebskapazität bei 35 % der Spitzenlast"/>
+<l:gentext key="meta.PUM.ROC50TipLoad" value="Nennbetriebskapazität bei 50 % der Spitzenlast"/>
+<l:gentext key="meta.PUM.Runtime" value="Laufzeit"/>
+<l:gentext key="meta.PUM.SafetyBrake" value="Sicherheitsbremse"/>
+<l:gentext key="meta.PUM.SolidSize" value="Festkörperkapazität"/>
+<l:gentext key="meta.PUM.SoundLevel" value="Lautstärke"/>
+<l:gentext key="meta.PUM.Starter" value="Anlasser"/>
+<l:gentext key="meta.PUM.StartingAid" value="Starthilfe"/>
+<l:gentext key="meta.PUM.StartingAid" value="Startmethode"/>
+<l:gentext key="meta.PUM.SyntheticHydOil" value="Synthetischer Hydrauliköltyp"/>
+<l:gentext key="meta.PUM.TipLoad" value="Spitzenlast"/>
+<l:gentext key="meta.PUM.TirePressure" value="Reifendruck"/>
+<l:gentext key="meta.PUM.TireSize" value="Reifengröße"/>
+<l:gentext key="meta.PUM.TireType" value="Reifentyp"/>
+<l:gentext key="meta.PUM.TrackSpecification" value="Track-Spezifikation"/>
+<l:gentext key="meta.PUM.TrackType" value="Spurtyp"/>
+<l:gentext key="meta.PUM.TransmissionOil" value="Getriebeöltyp"/>
+<l:gentext key="meta.PUM.Voltage" value="Stromspannung"/>
+<l:gentext key="meta.PUM.VoltageRegNoLoad" value="Spannungsregelung – keine Last bis Volllast"/>
+<l:gentext key="meta.PUM.VoltageRegSteady" value="Spannungsregelung – Steady State"/>
+<l:gentext key="meta.PUM.WheelNutTorque" value="Drehmoment der Radmuttern"/>
+<!-- ==================================================================== -->
+
+<!-- Werte für Preislisten -->
+<l:gentext key="meta.PGK.PL-ArticleNo" value="Artikel-Nr."/>
+<l:gentext key="meta.PGK.PL-Description" value="Bezeichnung"/>
+<l:gentext key="meta.PGK.PL-Price" value="Preis (€)"/>
+<!-- ==================================================================== -->
+
+</l:langblock>
+</l:langdata>

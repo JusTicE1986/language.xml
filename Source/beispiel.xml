@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <eintrag>
+        <schluessel typ="str">Hallo</schluessel>
+        <wert typ="int">0</wert>
+    </eintrag>
+</dictionary>
